@@ -2,10 +2,10 @@ import re
 
 class Number:
     def __init__( self, v ):
-        # CODE HERE to intialize the object
+        # intialize the object
         self.v = v
     def toString( self ):
-        # CODE HERE to print the number in mulitple formats: decimal, hex, binary
+        # print the number in mulitple formats: decimal, hex, binary
         intStr = str( self.v )
         binStr = bin( self.v )
         hexStr = hex( self.v )
@@ -136,9 +136,8 @@ while True:
             exit()
 
     """
-    Outputs, dont change the following because we're grading based on this.
-    We're going to grade by testing it with a .txt file with some sample inputs,
-    and we expect to see results like:
+    Outputs
+    expected results look like:
 
     Operation: AND
     A: 5    0x5    0b101
@@ -147,8 +146,6 @@ while True:
 
       ( this example takes input:   5 AND 9 )
 
-
-    Make sure your code reads the input correctly
     """
     # output
     print "\nCompute Result:"
